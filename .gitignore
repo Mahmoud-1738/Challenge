@@ -1,0 +1,36 @@
+# Composer
+/vendor/
+composer.phar
+
+# Environment / local config
+.env
+.env.local
+*.local.php
+
+# Logs & caches
+*.log
+/logs/
+/cache/
+/tmp/
+
+# Uploads
+/uploads/
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Backups
+*.bak
+*.bak-*
+*.orig
